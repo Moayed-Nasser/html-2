@@ -5,42 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/hhh.css">
-    
 </head>
-
 <body>
+  <nav class="nav">
+    <ul>
+      <li><a href="#aboutme">about me</a></li>
+      <li><a href="#myfuture">future</a></li> 
+      <li><a href="#Hobbies">My hoppies</a></li> 
+      <li><a href="#figure">My photo</a> </li>
+      <li><a href="#Guess" >gusses</a></li>
+      </ul>
+    </nav>
+  <header class="header">    
+      <p>  Moayed Nasser</p>
+  </header>
+  <main class="main"> 
+    <section>
+      <h1 id="aboutme"> about me</h1>
+      <p>   name is Moayed Nasser im 19 years old, im from Nablus
+        My family origins belong to the occupied city of jaffa
+        Iam studying computer science at Al-Najah National University.</p> 
+          </section>
     
-    <div class="mine"><div><h1> Moayed Nasser </h1>  </div>
-    <img src="./WhatsApp Image 2024-10-03 at 20.38.47_30d2e815.jpg"height="400"width="400"> 
-    <div> <p > My name is Moayed Nasser im 19 years old, im from Nablus<br>
-         My family origins belong to the occupied city of jaffa<br>
-         Iam studying computer science at Al-Najah National University. </p> </div>
+    <figure class="figure">
+      <ul id="img">  <img src="./WhatsApp Image 2024-10-03 at 20.38.47_30d2e815.jpg"height="250"width="250"alt="picofme" id="myimg">    </ul>
+      
+    </figure>  
+    <section>
+<h1 id="myfuture">My future</h1>
+  <p> When I grow up, I want to be a software developer who creates innovative and user-friendly applications that make people’s lives easier and more enjoyable. I envision myself working on projects that solve real-world problems, whether it’s through developing educational tools, enhancing communication platforms, or creating entertainment apps. My goal is to continuously learn and adapt to new technologies, collaborate with talented teams, and contribute to the ever-evolving tech industry. Ultimately, I want to make a positive impact on the world through my passion for coding and technology.</p>
+    </section>
+  </main>
 
-<div><h2>My hoppies:-</h2>
-    <ol> 1- computer games</ol><ul> <img src="./computer games.jpg" height="100"width="100"> </ul>
-    <ol> 2-playing football</ol><ul> <img src="./football.jpg" height="100" width="100"> </ul>
-    <ol> 3-photography</ol><ul><img src="./cat.jpg" height="100" width="100"></ul></div>
-
-    <div class="guess">  <!--this div is to ask the user guess a hobby of mine -->
-        <h2>Guess My Favorite Hobby</h2>
-        <form>
-            <input type="radio" id="option1" name="hobby" value="computer games">
-            <label for="Video games">Video games</label><br>
-            
-            <input type="radio" id="option2" name="hobby" value="football">
-            <label for="Photography">Photography</label><br>
-            
-            <input type="radio" id="option3" name="hobby" value="photography">
-            <label for="Swimming">Swimming</label><br>
-            
-            <button type="submit">Submit</button>
-            </form></div>
-
-
-   <div><p>When I grow up, I want to be a software developer who creates innovative and user-friendly applications that make people’s lives easier and more enjoyable. I envision myself working on projects that solve real-world problems, whether it’s through developing educational tools, enhancing communication platforms, or creating entertainment apps. My goal is to continuously learn and adapt to new technologies, collaborate with talented teams, and contribute to the ever-evolving tech industry. Ultimately, I want to make a positive impact on the world through my passion for coding and technology.</p></div>
-
-<div> <a href="https://github.com/Moayed-Nasser/moayed-html.git" target="_blank"> A previous projects </a> </div></div>
-
-
+  <article class="article">
+  <h1 id="Hobbies">My Hobbies</h1>
+  <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Video_game" target="_blank"><b>video games</b></a>
+          <img src="./computer games.jpg" alt="" width="200" height="200"></li> 
+      <li><a href="https://en.wikipedia.org/wiki/Football" target="_blank"><b>playing football</b></a>
+          <img src="./football.jpg" alt="" width="200" height="200"></li>
+      <li><a href="https://en.wikipedia.org/wiki/Photography" target="_blank"><b>Photography</b></a>
+          <img src="./cat.jpg" alt=""  width="200" height="200"></li>
+  </ul>
+</article>
+    <article class="article2">
+      <section>
+        <h1>Guess My Hobbies</h1>
+        <select id="Guess" name="hobby">
+            <option value="VideoGames">VideoGames</option>
+            <option value="Photography">Photography</option>
+            <option value="Swimming">playing football</option>
+        </select>
+        <button type="submit">Submit</button>
+      </section>
+    </article>
+<footer>
+  <button type="button" id="button"><a href="https://github.com/Moayed-Nasser/moayed-html.git" target="_blank">prvious project</a></button>
+</footer>
 </body>
 </html>
